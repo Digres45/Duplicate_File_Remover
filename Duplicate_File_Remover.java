@@ -27,7 +27,7 @@ class DuplicateRemover{
 	}
 	
 	void remove(){
-		f = new File("C:\\Users\\DIGRES\\Desktop\\TestPro");
+		f = new File("PATH_OF_FILE_WITH");
 		files = f.listFiles();
 		String fname1,fname2;	// DECLARING TWO FILE NAMES
 		long size1,size2;
